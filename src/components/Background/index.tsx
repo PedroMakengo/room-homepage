@@ -23,8 +23,8 @@ export function Background() {
               corporis ipsum quia incidunt voluptates!
             </p>
           </div>
-          <div>
-            <button>1</button>
+          <div className={style.buttons}>
+            <button className={style.active}>1</button>
             <button>2</button>
           </div>
         </div>

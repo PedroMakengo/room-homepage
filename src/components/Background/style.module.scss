@@ -52,7 +52,7 @@
         align-items: center;
         justify-content: center;
 
-        padding: 0 5rem;
+        padding: 0 6rem;
         font-family: Roboto;
 
         h1 {
@@ -61,6 +61,26 @@
         }
         p {
           line-height: 1.5rem;
+        }
+      }
+
+      .buttons {
+        height: 15%;
+
+        display: flex;
+
+        button {
+          border: 0;
+          border-radius: 0;
+          width: 100px;
+          height: 100%;
+
+          background: #444444;
+          color: #fff;
+
+          &.active {
+            background: #000;
+          }
         }
       }
     }
