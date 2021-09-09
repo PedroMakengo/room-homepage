@@ -11,36 +11,6 @@
     display: flex;
     justify-content: space-between;
 
-    .navegation {
-      width: 60%;
-      background-image: url(../../../public/images/desktop-image-hero-1.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-
-      display: flex;
-
-      padding: 4rem;
-
-      img {
-        width: 90px;
-        height: 20px;
-        margin-right: 2rem;
-      }
-
-      nav a {
-        color: #fff;
-
-        & + a {
-          margin-left: 2rem;
-        }
-
-        &:hover {
-          border-bottom: 2px solid #fff;
-        }
-      }
-    }
-
     .describeContent {
       width: 40%;
 

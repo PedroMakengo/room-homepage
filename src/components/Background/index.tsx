@@ -1,18 +1,11 @@
+import { Nav } from "../Nav";
 import style from "./style.module.scss";
 
 export function Background() {
   return (
     <main className={style.main}>
       <section className={style.contentTop}>
-        <div className={style.navegation}>
-          <img src="../../images/logo.svg" alt="" />
-          <nav>
-            <a href="#">home</a>
-            <a href="#">shop</a>
-            <a href="#">about</a>
-            <a href="#">contact</a>
-          </nav>
-        </div>
+        <Nav />
         <div className={style.describeContent}>
           <div className={style.discover}>
             <h1>Discover innovative ways to decorate</h1>
