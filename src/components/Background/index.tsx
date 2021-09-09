@@ -23,13 +23,34 @@ export function Background() {
               with our collection and make your property a reflection of you and
               what you love.
             </p>
-            <a href="#">SHOP NOW </a>
+            <a href="#">
+              SHOP NOW <img src="../../images/icon-arrow.svg" alt="" />{" "}
+            </a>
           </div>
           <div className={style.buttons}>
-            <button className={style.active}>1</button>
-            <button>2</button>
+            <button className={style.active}>
+              <img src="../../images/icon-angle-left.svg" alt="" />
+            </button>
+            <button>
+              <img src="../../images/icon-angle-right.svg" alt="" />
+            </button>
           </div>
         </div>
+      </section>
+      <section className={style.about}>
+        <div className={style.banner}></div>
+        <div className={style.aboutContent}>
+          <h1>About our furniture</h1>
+          <p>
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </div>
+        <div className={style.background}></div>
       </section>
     </main>
   );
