@@ -1,17 +1,15 @@
 import style from "./style.module.scss";
 
-export function About() {
+interface AboutProps {
+  title?: string;
+  paragraph?: string;
+}
+
+export function About({ title, paragraph }: AboutProps) {
   return (
     <div className={style.aboutContent}>
-      <h1>About our furniture</h1>
-      <p>
-        Our multifunctional collection blends design and function to suit your
-        individual taste. Make each room unique, or pick a cohesive theme that
-        best express your interests and what inspires you. Find the furniture
-        pieces you need, from traditional to contemporary styles or anything in
-        between. Product specialists are available to help you create your dream
-        space.
-      </p>
+      <h1>{title}</h1>
+      <p>{paragraph}</p>
     </div>
   );
 }
