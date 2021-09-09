@@ -48,24 +48,6 @@
       background-image: url(../../../public/images/image-about-dark.jpg);
     }
 
-    .aboutContent {
-      width: 40%;
-      height: 100%;
-
-      display: flex;
-      flex-direction: column;
-
-      padding: 3rem;
-
-      h1 {
-        margin-bottom: 1rem;
-      }
-
-      p {
-        color: #5f5f5fec;
-      }
-    }
-
     .background {
       width: 30%;
       background-image: url(../../../public/images/image-about-light.jpg);

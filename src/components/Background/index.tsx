@@ -1,3 +1,4 @@
+import { About } from "../About";
 import { Button } from "../Button";
 import { Discover } from "../Discover";
 import { Nav } from "../Nav";
@@ -21,17 +22,7 @@ export function Background() {
       </section>
       <section className={style.about}>
         <div className={style.banner}></div>
-        <div className={style.aboutContent}>
-          <h1>About our furniture</h1>
-          <p>
-            Our multifunctional collection blends design and function to suit
-            your individual taste. Make each room unique, or pick a cohesive
-            theme that best express your interests and what inspires you. Find
-            the furniture pieces you need, from traditional to contemporary
-            styles or anything in between. Product specialists are available to
-            help you create your dream space.
-          </p>
-        </div>
+        <About />
         <div className={style.background}></div>
       </section>
     </main>
