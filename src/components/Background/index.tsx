@@ -1,3 +1,4 @@
+import { Button } from "../Button";
 import { Discover } from "../Discover";
 import { Nav } from "../Nav";
 import style from "./style.module.scss";
@@ -10,12 +11,11 @@ export function Background() {
         <div className={style.describeContent}>
           <Discover />
           <div className={style.buttons}>
-            <button className={style.active}>
-              <img src="../../images/icon-angle-left.svg" alt="" />
-            </button>
-            <button>
-              <img src="../../images/icon-angle-right.svg" alt="" />
-            </button>
+            <Button
+              className={style.active}
+              src="../../images/icon-angle-left.svg"
+            />
+            <Button src="../../images/icon-angle-right.svg" />
           </div>
         </div>
       </section>
